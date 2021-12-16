@@ -1,0 +1,57 @@
+
+.bg-pattern {
+    background-image: url('../images/bg-pattern-desktop.svg');
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: 114% 68%;
+    background-repeat: no-repeat;
+}
+.bg-woman {
+    background-image: url('../images/illustration-woman-online-desktop.svg');
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: -80px 80px;
+}
+.bg-box {
+    background-image: url('../images/illustration-box-desktop.svg');
+    position: relative;
+    width: 191px;
+    height: 184px;
+    background-repeat: no-repeat;
+    left: -93px;
+    top: 220px;
+}
+@media (max-width:1200px) {
+    .bg-woman {
+      width: 100%;
+      height: 100%;
+      background-size: contain;
+    }
+  }
+
+@media (max-width:767px) {
+    .bg-woman {
+        display: none;
+    }
+    .bg-pattern-mob {
+        background-image: url('../images/bg-pattern-mobile.svg');
+        position: relative;
+        width: 244px;
+        height: 104px;
+        background-repeat: no-repeat;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+    .bg-woman-mob {
+        background-image: url('../images/illustration-woman-online-desktop.svg');
+        position: relative;
+        width: 244px;
+        height: 185px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        top: -108px;
+    }
+  }
